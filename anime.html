@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime | Joshua Omang</title>
+  <meta name="description" content="Anime I've been watching on Muse Asia — a collection of 12 titles." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Joshua<span>.Omang</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#skills" class="nav-link">Skills</a>
+        <a href="anime.html" class="nav-link">Anime</a>
+        <a href="index.html#resume" class="nav-link">Resume</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-content fade-in">
+      <p class="hero-greeting">Anime Watchlist</p>
+      <h1>12 Titles on Muse Asia</h1>
+      <p class="hero-tagline">A curated list of anime available on Muse Asia's YouTube channel.</p>
+      <div class="hero-buttons">
+        <a href="index.html" class="btn btn-outline">Back to Portfolio</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true"><span></span></div>
+  </section>
+  <section id="anime" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">Anime</h2>
+      <p class="section-subtitle fade-in">Shows I've been watching on Muse Asia.</p>
+      <div class="anime-grid">
+        <article class="anime-card fade-in">
+          <img src="images/spy-x.webp" alt="Spy x Family" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>Spy x Family</h3>
+            <p>A spy, an assassin, and a telepath form a fake family — each hiding secrets from the others.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Action</span>
+              <span class="skill-tag">Comedy</span>
+              <span class="skill-tag">Slice of Life</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="spy-x-family.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">A spy, an assassin, and a telepath form a fake family — each hiding secrets from the others. Together, they navigate dangerous missions while pretending to be a normal family.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/one-punch.webp" alt="One Punch Man" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>One Punch Man</h3>
+            <p>A hero who can defeat any enemy with a single punch struggles with the boredom of overwhelming power.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Action</span>
+              <span class="skill-tag">Comedy</span>
+              <span class="skill-tag">Supernatural</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="one-punch-man.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Saitama, a bald caped crusader, can defeat any enemy with a single punch but struggles with the boredom of overwhelming power and the search for a worthy opponent.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/dan-da.webp" alt="Dan Da Dan" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>Dan Da Dan</h3>
+            <p>Two high schoolers encounter a supernatural egg and a yokai, launching them into an absurd paranormal adventure.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Supernatural</span>
+              <span class="skill-tag">Comedy</span>
+              <span class="skill-tag">Romance</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="dan-da-dan.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Momo and Okarun stumble into a world of spirits and curses, forcing them to confront the unknown with humor and courage as they investigate supernatural phenomena.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/rezero2.jpg" alt="Re:ZERO" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>Re:ZERO</h3>
+            <p>A young man is transported to a fantasy world where he discovers the power to rewind time upon death.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Isekai</span>
+              <span class="skill-tag">Drama</span>
+              <span class="skill-tag">Thriller</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="rezero.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Subaru Natsuki must navigate a cruel world of trials and tragedies, using his Return by Death ability to protect those he cares about and uncover the truth.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/camp2.jpg" alt="Campfire Cooking" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>Campfire Cooking</h3>
+            <p>A man transported to another world uses his absurd cooking skill to prepare meals and build a peaceful life.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Isekai</span>
+              <span class="skill-tag">Cooking</span>
+              <span class="skill-tag">Fantasy</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="campfire-cooking.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Takumi discovers that his "God's Tongue" ability lets him create dishes that soothe even the most dangerous creatures in this new world.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/mushoku2.avif" alt="Mushoku Tensei" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>Mushoku Tensei</h3>
+            <p>A jobless recluse reincarnates into a fantasy world and strives to live a better life as a young mage.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Isekai</span>
+              <span class="skill-tag">Fantasy</span>
+              <span class="skill-tag">Adventure</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="mushoku-tensei.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Rudeus navigates a new world of magic and adventure, determined not to waste his second chance at life and to become a better person.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/time as a slime.webp" alt="That Time I Got Reincarnated as a Slime" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>That Time I Got Reincarnated as a Slime</h3>
+            <p>A man dies and is reborn as a slime in a magical world, building a nation of monsters along the way.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Isekai</span>
+              <span class="skill-tag">Fantasy</span>
+              <span class="skill-tag">Adventure</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="that-time-i-got-reincarnated-as-a-slime.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Rimuru's journey from a simple slime to a powerful demon lord is filled with friendship, strategy, and epic battles to build a nation of monsters.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/diaries.webp" alt="The Apothecary Diaries" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>The Apothecary Diaries</h3>
+            <p>A young pharmacist's assistant uses her knowledge of medicine to solve mysteries in the imperial court.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Mystery</span>
+              <span class="skill-tag">Historical</span>
+              <span class="skill-tag">Drama</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="the-apothecary-diaries.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Mao's sharp mind and medical expertise unravel conspiracies and secrets hidden within the palace walls of the imperial court.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/jujutsu.jpg" alt="Jujutsu Kaisen" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>Jujutsu Kaisen</h3>
+            <p>A high schooler swallows a cursed object and enters a world of sorcerers fighting supernatural threats.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Action</span>
+              <span class="skill-tag">Supernatural</span>
+              <span class="skill-tag">Dark Fantasy</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="jujutsu-kaisen.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Yuji Itadori joins Tokyo Jujutsu High to combat curses and uncover the truth behind his new existence in a world of sorcerers.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/One-Piece.jpg" alt="One Piece" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>One Piece</h3>
+            <p>A pirate crew led by Monkey D. Luffy sails the Grand Line in search of the legendary One Piece treasure.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Adventure</span>
+              <span class="skill-tag">Comedy</span>
+              <span class="skill-tag">Shounen</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="one-piece.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">With his rubber-powered abilities, Luffy gathers a loyal crew and challenges the world's strongest powers in pursuit of the legendary treasure.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/academia2.webp" alt="My Hero Academia" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>My Hero Academia</h3>
+            <p>A quirkless boy inherits a powerful ability and enrolls in a hero academy to become the greatest hero.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Action</span>
+              <span class="skill-tag">Superhero</span>
+              <span class="skill-tag">Shounen</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="my-hero-academia.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Izuku Midoriya enters U.A. High School, where he trains alongside future heroes to protect the world from villains and fulfill his dream.</p>
+          </div>
+        </article>
+        <article class="anime-card fade-in">
+          <img src="images/sword-art.webp" alt="Sword Art Online" class="anime-thumb" />
+          <div class="anime-body">
+            <h3>Sword Art Online</h3>
+            <p>Thousands of players are trapped in a virtual reality MMORPG where death in-game means death in real life.</p>
+            <div class="tag-list">
+              <span class="skill-tag">Sci-Fi</span>
+              <span class="skill-tag">Action</span>
+              <span class="skill-tag">Romance</span>
+            </div>
+            <div class="anime-actions">
+              <button class="anime-desc-btn" onclick="toggleDesc(this)">Read More</button>
+              <a href="sword-art-online.html" class="anime-view-btn">View Me</a>
+            </div>
+            <p class="anime-description">Kirito must fight through deadly floors and forge bonds to survive and escape the death game that traps thousands of players.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>© 2025 Joshua Omang. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="mailto:joshua.omang@example.com">Email</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

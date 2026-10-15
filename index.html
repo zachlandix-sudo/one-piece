@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joshua Omang | Student Portfolio</title>
+  <meta name="description" content="Portfolio of Joshua Omang, a student at the College of Maasin — projects, anime, quotes, and achievements." />
+
+  <!-- Google Font (loads fast, only 2 weights needed) -->
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)" />
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap)" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION BAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+<a href="#home" class="logo"><span>Joshua Omang</span></a>
+
+<nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#anime" class="nav-link">Anime</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#quotes" class="nav-link">Quotes</a>
+        <a href="#subjects" class="nav-link">Subjects</a>
+        <a><span></span><span></span><sapn></sapn>BSIT 3-A</span></a>
+
+      </nav>
+
+      <!-- Hamburger button, only visible on mobile -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO / HOME SECTION ============ -->
+  <section id="home" class="hero">
+    <!-- Hero banner background image + light overlay for readability -->
+    <div class="hero-banner" aria-hidden="true">
+      <div class="hero-banner-overlay"></div>
+    </div>
+
+    <!-- Animated background layers: floating orbs + particles -->
+    <div class="hero-bg" aria-hidden="true">
+      <span class="orb orb-1"></span>
+      <span class="orb orb-2"></span>
+      <span class="orb orb-3"></span>
+      <span class="particle p-1"></span>
+      <span class="particle p-2"></span>
+      <span class="particle p-3"></span>
+      <span class="particle p-4"></span>
+      <span class="particle p-5"></span>
+      <span class="particle p-6"></span>
+      <span class="particle p-7"></span>
+      <span class="particle p-8"></span>
+      <span class="particle p-9"></span>
+      <span class="particle p-10"></span>
+      <span class="particle p-11"></span>
+      <span class="particle p-12"></span>
+      <span class="particle p-13"></span>
+      <span class="particle p-14"></span>
+      <span class="particle p-15"></span>
+      <span class="particle p-16"></span>
+    </div>
+
+    <!-- Mouse-follower glow, moved by JS -->
+    <div class="hero-glow-follower" id="heroGlow" aria-hidden="true"></div>
+
+    <!-- Floating decorative emojis -->
+    <div class="hero-float-icons" aria-hidden="true">
+      <span>💻</span>
+      <span>🚀</span>
+      <span>⚡</span>
+      <span>🎨</span>
+      <span>🧠</span>
+      <span>📚</span>
+    </div>
+
+    <!-- Floating geometric shapes -->
+    <div class="hero-shapes" aria-hidden="true">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <!-- Subtle scanline texture over the banner -->
+    <div class="hero-scanlines" aria-hidden="true"></div>
+
+    <div class="hero-content fade-in">
+<p class="hero-greeting">Hello, my name is</p>
+      <h1>Joshua Omang</h1>
+      <h2 class="typewriter">Student at the College of Maasin</h2>
+      <p class="hero-tagline">
+        Building projects, learning every day, and exploring web development and design.
+      </p>
+<div class="hero-buttons">
+        <a href="#subjects" class="btn btn-outline btn-glow">My Subjects</a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true"><span></span></div>
+
+    <!-- Animated wave divider at the bottom of the hero -->
+    <svg class="hero-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,64 C240,110 480,10 720,32 C960,54 1200,110 1440,64 L1440,120 L0,120 Z" fill="#f0f5ff" opacity="0.55" />
+      <path d="M0,80 C240,120 480,40 720,60 C960,80 1200,120 1440,80 L1440,120 L0,120 Z" fill="#ffffff" opacity="0.9" />
+    </svg>
+  </section>
+
+  <!-- ============ ABOUT SECTION ============ -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title fade-in">About Me</h2>
+
+      <div class="about-grid">
+        <!-- Profile photo -->
+        <div class="about-photo fade-in">
+<img src="images/baki.jpg" alt="Joshua Omang" class="about-img" />
+        </div>
+
+<div class="about-text fade-in">
+          <p>
+Hi! I'm <strong>Joshua Omang</strong>, a 3rd-year BS in Information Technology student
+            at the College of Maasin with a genuine passion for technology, problem-solving, and
+            building things that make a difference. I enjoy turning ideas into working projects —
+            whether that's a responsive website, a small program, or a class assignment I decide to
+            take a little further than required.
+          </p>
+          <p>
+            Outside of academics, I love exploring new tools, following tech tutorials, and finding
+            practical ways to apply what I learn in class. I'm always looking for opportunities to
+            grow — through school projects, personal experiments, hackathons, or internships. I
+            believe that technology is at its best when it solves real problems for real people, and
+            that's exactly the kind of work I want to be part of.
+          </p>
+          <p>
+            As I move through my third year, I'm focusing on deepening my skills in web development,
+            database management, and networking — while staying curious about new trends like cloud
+            computing, cybersecurity, and AI. I'm a firm believer in continuous learning, and I'm
+            excited to keep building my skills one project at a time.
+          </p>
+
+          <div class="about-details">
+            <div class="detail-card">
+              <h4>🎓 Program</h4>
+              <p>BS in Information Technology, 3rd Year</p>
+            </div>
+            <div class="detail-card">
+              <h4>🏫 School</h4>
+              <p>College of Maasin</p>
+            </div>
+            <div class="detail-card">
+              <h4>📍 Year Level</h4>
+              <p>Third Year · BSIT 3-A</p>
+            </div>
+          </div>
+
+          <div class="hobbies">
+            <span class="hobby-tag">💻 Coding</span>
+            <span class="hobby-tag">🎮 Gaming</span>
+            <span class="hobby-tag">🎵 Music</span>
+            <span class="hobby-tag">📚 Reading</span>
+            <span class="hobby-tag">🖥️ Tech exploration</span>
+            <span class="hobby-tag">📷 Photography</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- What drives me — interest / value cards -->
+      <div class="values-grid">
+        <div class="value-card fade-in">
+          <div class="value-icon">🚀</div>
+          <h4>Curiosity First</h4>
+          <p>I learn best by asking questions, breaking things, and rebuilding them better than before.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-icon">🤝</div>
+          <h4>Team Player</h4>
+          <p>I enjoy collaborating on group projects and believe the best ideas come from shared effort.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-icon">🎯</div>
+          <h4>Goal Driven</h4>
+          <p>I set small, measurable goals every semester and hold myself accountable to reach them.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-icon">💡</div>
+          <h4>Creative Problem Solver</h4>
+          <p>When a solution isn't obvious, I enjoy experimenting until I find one that works.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS / COUNTERS SECTION ============ -->
+  <section id="stats" class="section stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="12">0</span>
+          <span class="stat-label">Anime Watched</span>
+        </div>
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="8">0</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="500">0</span>
+          <span class="stat-label">Hours Learning</span>
+        </div>
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUOTES SECTION ============ -->
+  <section id="quotes" class="section quotes-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">Daily Fuel</span>
+        <h2 class="section-title">Motivational Quotes</h2>
+        <p class="section-subtitle">100 quotes to keep you going — one for every mood and moment.</p>
+      </div>
+
+      <!-- Quote of the Day spotlight -->
+      <div class="quote-spotlight fade-in" id="quoteSpotlight">
+        <span class="quote-spotlight-badge">Quote of the Day</span>
+        <span class="quote-spotlight-mark">“</span>
+        <p class="quote-spotlight-text" id="spotlightText">Loading quote…</p>
+        <p class="quote-spotlight-author" id="spotlightAuthor"></p>
+        <p class="quote-spotlight-counter" id="spotlightCounter">1 / 100</p>
+        <div class="quote-spotlight-controls">
+          <button class="quote-btn" id="quotePrev" aria-label="Previous quote">← Prev</button>
+          <button class="quote-btn" id="quoteRandom" aria-label="Random quote">🎲 Random</button>
+          <button class="quote-btn" id="quoteNext" aria-label="Next quote">Next →</button>
+        </div>
+      </div>
+
+      <!-- Grid of all 100 quotes -->
+      <div class="quotes-grid" id="quotesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS SECTION ============ -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">My Work</span>
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">A few things I have built in class and during my own time.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">🌐</span>
+            <h3>Personal Portfolio Website</h3>
+          </div>
+          <p>This very site! A fully responsive one-page portfolio built with HTML, CSS, and vanilla JavaScript, featuring smooth scroll animations, a motivational quotes gallery, and an anime collection.</p>
+          <div class="tag-list">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+          <p class="project-status">✅ Completed</p>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">📝</span>
+            <h3>Student Grade Tracker</h3>
+          </div>
+          <p>A small program that helps students compute their GPA and visualize subject performance across a semester, made as a class project.</p>
+          <div class="tag-list">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">CLI</span>
+          </div>
+          <p class="project-status">✅ Completed</p>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">🛒</span>
+            <h3>Simple Shop Landing Page</h3>
+          </div>
+          <p>A product landing page mockup with pricing cards, testimonials, and a responsive navigation bar, used to practice modern layout techniques.</p>
+          <div class="tag-list">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">Flexbox</span>
+          </div>
+          <p class="project-status">✅ Completed</p>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">🗄️</span>
+            <h3>Library Database Design</h3>
+          </div>
+          <p>Designed a relational database schema for a small library system, including tables for books, members, and loans, with sample queries.</p>
+          <div class="tag-list">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">ERD</span>
+          </div>
+          <p class="project-status">🔄 In Progress</p>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">🤖</span>
+            <h3>Simple Chatbot Script</h3>
+          </div>
+          <p>A rule-based chatbot in Python that answers basic questions about the College of Maasin, built while experimenting with string matching logic.</p>
+          <div class="tag-list">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Logic</span>
+          </div>
+          <p class="project-status">✅ Completed</p>
+        </article>
+
+        <article class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-icon">🎨</span>
+            <h3>Anime Fan Page Design</h3>
+          </div>
+          <p>A Figma concept for an anime discovery app, focusing on card layouts and color palettes that match the energy of the shows I enjoy.</p>
+          <div class="tag-list">
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">UI Design</span>
+          </div>
+          <p class="project-status">🔄 In Progress</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES SECTION ============ -->
+  <section id="services" class="section section-alt services-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">What I Offer</span>
+        <h2 class="section-title">Services</h2>
+        <p class="section-subtitle">Ways I can contribute to your project, team, or organization.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <span class="service-icon">🖥️</span>
+          <h3>Web Page Building</h3>
+          <p>Clean, responsive landing pages and portfolios built with HTML, CSS, and JavaScript — from simple one-pagers to multi-page sites.</p>
+        </div>
+        <div class="service-card fade-in">
+          <span class="service-icon">🎨</span>
+          <h3>Basic UI Design</h3>
+          <p>Wireframes, color palettes, and interface concepts using Figma and Canva, focused on usability and visual consistency.</p>
+        </div>
+        <div class="service-card fade-in">
+          <span class="service-icon">🗄️</span>
+          <h3>Database Help</h3>
+          <p>Entity-relationship diagrams, schema design, and basic MySQL queries for small systems and school projects.</p>
+        </div>
+        <div class="service-card fade-in">
+          <span class="service-icon">🐍</span>
+          <h3>Python Scripting</h3>
+          <p>Small automation scripts, data-processing helpers, and learning-oriented programs written in Python.</p>
+        </div>
+        <div class="service-card fade-in">
+          <span class="service-icon">📊</span>
+          <h3>Office &amp; Docs</h3>
+          <p>Presentations, reports, and spreadsheets organized and polished with Microsoft Office tools.</p>
+        </div>
+        <div class="service-card fade-in">
+          <span class="service-icon">🤝</span>
+          <h3>Tech Tutoring</h3>
+          <p>One-on-one help for classmates and friends with coding basics, web concepts, and computer literacy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE / TIMELINE SECTION ============ -->
+  <section id="experience" class="section section-alt experience-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">My Journey</span>
+        <h2 class="section-title">Experience</h2>
+        <p class="section-subtitle">Milestones, activities, and roles that have shaped my path so far.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024 – Present</span>
+            <h4>BS in Information Technology</h4>
+            <p>Studying at the College of Maasin with focus areas in web development, databases, and networking.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2025</span>
+            <h4>Inter-College Coding Challenge</h4>
+            <p>Represented my college in a coding contest, solving algorithm and logic problems under time pressure.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024 – 2025</span>
+            <h4>IT Society Member</h4>
+            <p>Active participant in the College of Maasin IT Society, attending seminars and helping with event operations.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024</span>
+            <h4>Web Development Fundamentals Certification</h4>
+            <p>Completed an online certification covering HTML, CSS, responsive design, and basic JavaScript.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023</span>
+            <h4>High School Graduate</h4>
+            <p>Graduated with honors and developed an early interest in computers, graphic design, and media.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS SECTION ============ -->
+  <section id="certifications" class="section certifications-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">Credentialed</span>
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">Online courses and certifications I have completed so far.</p>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card fade-in">
+          <h3>🌐 Web Development Fundamentals</h3>
+          <p>Covered HTML, CSS, responsive design, and basic JavaScript through a structured online program.</p>
+          <span class="cert-date">2024</span>
+        </div>
+        <div class="cert-card fade-in">
+          <h3>🐍 Python for Beginners</h3>
+          <p>Learned Python basics including variables, loops, functions, and simple file handling.</p>
+          <span class="cert-date">2024</span>
+        </div>
+        <div class="cert-card fade-in">
+          <h3>🗄️ SQL &amp; Database Basics</h3>
+          <p>Studied relational database concepts, schema design, and core MySQL query writing.</p>
+          <span class="cert-date">2025</span>
+        </div>
+        <div class="cert-card fade-in">
+          <h3>📱 Digital Literacy Essentials</h3>
+          <p>Completed a general technology literacy course covering office tools, online safety, and productivity.</p>
+          <span class="cert-date">2025</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TOP PICKS SECTION ============ -->
+  <section id="top-picks" class="section top-picks-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">Must Watch</span>
+        <h2 class="section-title">Top 3 Picks</h2>
+        <p class="section-subtitle">If you are new to anime, these are the shows I recommend starting with.</p>
+      </div>
+
+      <div class="top-picks-grid">
+        <div class="top-pick-card fade-in">
+          <span class="top-pick-rank">#1</span>
+          <h3>One Piece</h3>
+          <p>A long but rewarding journey full of adventure, friendship, and unforgettable moments. Perfect for anyone who loves big world-building.</p>
+        </div>
+        <div class="top-pick-card fade-in">
+          <span class="top-pick-rank">#2</span>
+          <h3>Spy x Family</h3>
+          <p>Funny, heartwarming, and easy to get into. Great mix of action and slice-of-life comedy that works for any mood.</p>
+        </div>
+        <div class="top-pick-card fade-in">
+          <span class="top-pick-rank">#3</span>
+          <h3>Jujutsu Kaisen</h3>
+          <p>Stunning action and a gripping story. A modern shounen that keeps you on the edge of your seat in every arc.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ANIMES SECTION ============ -->
+    <section id="anime" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title fade-in">Anime</h2>
+        <p class="section-subtitle fade-in">Shows I've been watching on Muse Asia.</p>
+
+        <div class="anime-grid">
+
+          <article class="anime-card fade-in">
+            <img src="images/spy-x.webp" alt="Spy x Family" />
+            <div class="anime-body">
+              <h3>Spy x Family</h3>
+              <p>A spy, an assassin, and a telepath form a fake family — each hiding secrets from the others.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Action</span>
+                <span class="skill-tag">Comedy</span>
+                <span class="skill-tag">Slice of Life</span>
+              </div>
+              <a href="spy-x-family.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/one-punch.webp" alt="One Punch Man" />
+            <div class="anime-body">
+              <h3>One Punch Man</h3>
+              <p>A hero who can defeat any enemy with a single punch struggles with the boredom of overwhelming power.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Action</span>
+                <span class="skill-tag">Comedy</span>
+                <span class="skill-tag">Supernatural</span>
+              </div>
+              <a href="one-punch-man.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/dan-da.webp" alt="Dan Da Dan" />
+            <div class="anime-body">
+              <h3>Dan Da Dan</h3>
+              <p>Two high schoolers encounter a supernatural egg and a yokai, launching them into an absurd paranormal adventure.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Supernatural</span>
+                <span class="skill-tag">Comedy</span>
+                <span class="skill-tag">Romance</span>
+              </div>
+              <a href="dan-da-dan.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/rezero2.jpg" alt="Re:ZERO" />
+            <div class="anime-body">
+              <h3>Re:ZERO</h3>
+              <p>A young man is transported to a fantasy world where he discovers the power to rewind time upon death.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Isekai</span>
+                <span class="skill-tag">Drama</span>
+                <span class="skill-tag">Thriller</span>
+              </div>
+              <a href="rezero.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/camp2.jpg" alt="Campfire Cooking" />
+            <div class="anime-body">
+              <h3>Campfire Cooking</h3>
+              <p>A man transported to another world uses his absurd cooking skill to prepare meals and build a peaceful life.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Isekai</span>
+                <span class="skill-tag">Cooking</span>
+                <span class="skill-tag">Fantasy</span>
+              </div>
+              <a href="campfire-cooking.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/mushoku2.avif" alt="Mushoku Tensei" />
+            <div class="anime-body">
+              <h3>Mushoku Tensei</h3>
+              <p>A jobless recluse reincarnates into a fantasy world and strives to live a better life as a young mage.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Isekai</span>
+                <span class="skill-tag">Fantasy</span>
+                <span class="skill-tag">Adventure</span>
+              </div>
+              <a href="mushoku-tensei.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/time as a slime.webp" alt="That Time I Got Reincarnated as a Slime" />
+            <div class="anime-body">
+              <h3>That Time I Got Reincarnated as a Slime</h3>
+              <p>A man dies and is reborn as a slime in a magical world, building a nation of monsters along the way.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Isekai</span>
+                <span class="skill-tag">Fantasy</span>
+                <span class="skill-tag">Adventure</span>
+              </div>
+              <a href="that-time-i-got-reincarnated-as-a-slime.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/diaries.webp" alt="The Apothecary Diaries" />
+            <div class="anime-body">
+              <h3>The Apothecary Diaries</h3>
+              <p>A young pharmacist's assistant uses her knowledge of medicine to solve mysteries in the imperial court.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Mystery</span>
+                <span class="skill-tag">Historical</span>
+                <span class="skill-tag">Drama</span>
+              </div>
+              <a href="the-apothecary-diaries.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/jujutsu.jpg" alt="Jujutsu Kaisen" />
+            <div class="anime-body">
+              <h3>Jujutsu Kaisen</h3>
+              <p>A high schooler swallows a cursed object and enters a world of sorcerers fighting supernatural threats.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Action</span>
+                <span class="skill-tag">Supernatural</span>
+                <span class="skill-tag">Dark Fantasy</span>
+              </div>
+              <a href="jujutsu-kaisen.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/One-Piece.jpg" alt="One Piece" />
+            <div class="anime-body">
+              <h3>One Piece</h3>
+              <p>A pirate crew led by Monkey D. Luffy sails the Grand Line in search of the legendary One Piece treasure.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Adventure</span>
+                <span class="skill-tag">Comedy</span>
+                <span class="skill-tag">Shounen</span>
+              </div>
+              <a href="one-piece.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/academia2.webp" alt="My Hero Academia" />
+            <div class="anime-body">
+              <h3>My Hero Academia</h3>
+              <p>A quirkless boy inherits a powerful ability and enrolls in a hero academy to become the greatest hero.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Action</span>
+                <span class="skill-tag">Superhero</span>
+                <span class="skill-tag">Shounen</span>
+              </div>
+              <a href="my-hero-academia.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+          <article class="anime-card fade-in">
+            <img src="images/sword-art.webp" alt="Sword Art Online" />
+            <div class="anime-body">
+              <h3>Sword Art Online</h3>
+              <p>Thousands of players are trapped in a virtual reality MMORPG where death in-game means death in real life.</p>
+              <div class="tag-list">
+                <span class="skill-tag">Sci-Fi</span>
+                <span class="skill-tag">Action</span>
+                <span class="skill-tag">Romance</span>
+              </div>
+              <a href="sword-art-online.html" class="anime-view-btn">View Me</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+</section>
+
+    <!-- ============ RESUME SECTION ============ -->
+    <section id="resume" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">Resume</h2>
+
+      <div class="resume-download fade-in">
+        <p>Want the full details? Download my resume below.</p>
+        <!-- Replace resume.pdf with the actual path to your resume file -->
+        <a href="resume.pdf" download class="btn btn-primary">⬇ Download Resume (PDF)</a>
+      </div>
+
+      <div class="resume-grid">
+        <!-- Education -->
+        <div class="resume-block fade-in">
+          <h3>🎓 Education</h3>
+          <div class="timeline-item">
+            <h4>BS in Information Technology</h4>
+            <p class="timeline-meta">College of Maasin · 2024 – Present</p>
+            <p>Relevant coursework: Web Development, Data Structures, Database Management, Computer Networking.</p>
+          </div>
+        </div>
+
+        <!-- Achievements -->
+        <div class="resume-block fade-in">
+          <h3>🏆 Achievements & Activities</h3>
+          <ul class="achievement-list">
+            <li>Dean's Lister, 1st Semester A.Y. 2024–2025</li>
+            <li>Member, College of Maasin IT Society</li>
+            <li>Participant, Inter-College Coding Challenge 2025</li>
+            <li>Completed online certification in Web Development Fundamentals</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS SECTION ============ -->
+  <section id="testimonials" class="section testimonials-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">Kind Words</span>
+        <h2 class="section-title">Testimonials</h2>
+        <p class="section-subtitle">What classmates and mentors have said about working with me.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <figure class="testimonial-card fade-in">
+          <blockquote>"Joshua is one of the most dependable members of our group projects. He always makes sure everyone understands the task and helps debug code without hesitation."</blockquote>
+          <figcaption>
+            <span class="testimonial-avatar">MC</span>
+            <div>
+              <strong>Maria C.</strong>
+              <span>Classmate, BSIT</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card fade-in">
+          <blockquote>"A quick learner with a genuine curiosity for technology. Joshua asks the right questions and applies feedback really well."</blockquote>
+          <figcaption>
+            <span class="testimonial-avatar">RS</span>
+            <div>
+              <strong>Mr. R. Santos</strong>
+              <span>Instructor</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card fade-in">
+          <blockquote>"Working with Joshua on the IT Society events was smooth — he communicates clearly and shows up when it matters."</blockquote>
+          <figcaption>
+            <span class="testimonial-avatar">AL</span>
+            <div>
+              <strong>Andrea L.</strong>
+              <span>IT Society Co-member</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY SECTION ============ -->
+  <section id="gallery" class="section section-alt gallery-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">Snapshot</span>
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-subtitle">A few favorites from my anime watchlist and beyond.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item fade-in">
+          <img src="images/spy-x.webp" alt="Spy x Family poster" />
+          <figcaption>Spy x Family</figcaption>
+        </figure>
+        <figure class="gallery-item fade-in">
+          <img src="images/one-punch.webp" alt="One Punch Man poster" />
+          <figcaption>One Punch Man</figcaption>
+        </figure>
+        <figure class="gallery-item fade-in">
+          <img src="images/rezero2.jpg" alt="Re:ZERO scene" />
+          <figcaption>Re:ZERO</figcaption>
+        </figure>
+        <figure class="gallery-item fade-in">
+          <img src="images/jujutsu.jpg" alt="Jujutsu Kaisen scene" />
+          <figcaption>Jujutsu Kaisen</figcaption>
+        </figure>
+        <figure class="gallery-item fade-in">
+          <img src="images/One-Piece.jpg" alt="One Piece crew" />
+          <figcaption>One Piece</figcaption>
+        </figure>
+        <figure class="gallery-item fade-in">
+          <img src="images/sword-art.webp" alt="Sword Art Online scene" />
+          <figcaption>Sword Art Online</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ SECTION ============ -->
+  <section id="faq" class="section faq-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">Good to Know</span>
+        <h2 class="section-title">FAQ</h2>
+        <p class="section-subtitle">Quick answers to questions people often ask me.</p>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item fade-in">
+<summary>🎓 What course are you taking?</summary>
+          <p>I'm currently taking BS in Information Technology at the College of Maasin, and I'm in my third year.</p>
+        </details>
+
+        <details class="faq-item fade-in">
+          <summary>💻 What kind of projects do you like building?</summary>
+          <p>I enjoy web projects the most — landing pages, portfolios, and small tools. I also like experimenting with Python scripts and database designs.</p>
+        </details>
+
+        <details class="faq-item fade-in">
+          <summary>⏰ Are you open to internships?</summary>
+          <p>Yes! I'm actively looking for internship opportunities, especially in web development, IT support, or software-related roles.</p>
+        </details>
+
+        <details class="faq-item fade-in">
+          <summary>📖 How do you learn new technologies?</summary>
+          <p>I combine online tutorials, documentation, and hands-on practice. Building something small with a new tool is the fastest way for me to learn it.</p>
+        </details>
+
+        <details class="faq-item fade-in">
+          <summary>🎮 What do you do outside of school?</summary>
+          <p>I watch anime, play games, listen to music, and tinker with small coding experiments whenever I have free time.</p>
+        </details>
+
+        <details class="faq-item fade-in">
+          <summary>📚 What subjects are you taking this year?</summary>
+          <p>I'm currently taking core BSIT subjects like Web Development, Database Management, Data Structures &amp; Algorithms, Computer Programming, and Computer Networking. Check the Subjects section for the full list.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER SECTION ============ -->
+  <section id="newsletter" class="section newsletter-section">
+    <div class="container">
+      <div class="newsletter-box fade-in">
+        <h2>📬 Stay in the Loop</h2>
+        <p>
+          Want updates on my projects, school activities, and new anime recommendations?
+          Drop your email below — no spam, just occasional updates.
+        </p>
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+          <input type="email" id="newsletterEmail" placeholder="you@example.com" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p class="form-status" id="newsletterStatus"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BANNER ============ -->
+  <section id="cta" class="section cta-section">
+    <div class="container">
+      <div class="cta-box fade-in">
+        <h2>Let's build something together 🚀</h2>
+        <p>Whether you have a project idea, an internship opening, or just want to talk tech — my inbox is open.</p>
+        <div class="cta-buttons">
+          <a href="#subjects" class="btn btn-primary">See My Subjects</a>
+          <a href="#projects" class="btn btn-outline">See My Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FUN FACTS SECTION ============ -->
+  <section id="fun-facts" class="section fun-facts-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">Did You Know?</span>
+        <h2 class="section-title">Fun Facts</h2>
+        <p class="section-subtitle">A few quick things about me beyond the resume.</p>
+      </div>
+
+      <div class="facts-grid">
+        <div class="fact-card fade-in">
+          <span class="fact-icon">🌏</span>
+          <p>I speak two languages and I'm slowly learning a third.</p>
+        </div>
+        <div class="fact-card fade-in">
+          <span class="fact-icon">🎧</span>
+          <p>I study best with lo-fi or orchestral music playing.</p>
+        </div>
+        <div class="fact-card fade-in">
+          <span class="fact-icon">🍜</span>
+          <p>Ramen is my go-to comfort food on late study nights.</p>
+        </div>
+        <div class="fact-card fade-in">
+          <span class="fact-icon">🧭</span>
+          <p>I first learned to code by editing my favorite website's layout.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SUBJECTS SECTION ============ -->
+  <section id="subjects" class="section subjects-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">What I Study</span>
+        <h2 class="section-title">My Subjects</h2>
+        <p class="section-subtitle">The courses I'm currently taking as part of my BS in Information Technology program.</p>
+      </div>
+
+      <div class="subjects-grid">
+        <article class="subject-card fade-in">
+          <span class="subject-icon">🌐</span>
+          <h3>Web Development</h3>
+          <p>Building responsive websites and web applications using HTML, CSS, and JavaScript, with a focus on modern layout and design techniques.</p>
+          <span class="subject-code">IT 201</span>
+        </article>
+
+        <article class="subject-card fade-in">
+          <span class="subject-icon">🗄️</span>
+          <h3>Database Management</h3>
+          <p>Designing relational databases, writing SQL queries, and managing data with systems like MySQL for real-world applications.</p>
+          <span class="subject-code">IT 202</span>
+        </article>
+
+        <article class="subject-card fade-in">
+          <span class="subject-icon">🧮</span>
+          <h3>Data Structures &amp; Algorithms</h3>
+          <p>Learning how to organize and process data efficiently through arrays, linked lists, stacks, queues, trees, and sorting techniques.</p>
+          <span class="subject-code">IT 203</span>
+        </article>
+
+        <article class="subject-card fade-in">
+          <span class="subject-icon">🖥️</span>
+          <h3>Computer Programming</h3>
+          <p>Developing logic and problem-solving skills through structured programming using Python and other core languages.</p>
+          <span class="subject-code">IT 204</span>
+        </article>
+
+        <article class="subject-card fade-in">
+          <span class="subject-icon">📡</span>
+          <h3>Computer Networking</h3>
+          <p>Understanding how devices communicate — from LANs and IP addressing to protocols, routing, and network security basics.</p>
+          <span class="subject-code">IT 205</span>
+        </article>
+
+        <article class="subject-card fade-in">
+          <span class="subject-icon">🖼️</span>
+          <h3>Multimedia &amp; Design</h3>
+          <p>Creating visual content with design principles, image editing, and presentation tools to communicate ideas effectively.</p>
+          <span class="subject-code">IT 206</span>
+        </article>
+
+        <article class="subject-card fade-in">
+          <span class="subject-icon">📊</span>
+          <h3>Information Management</h3>
+          <p>Organizing, storing, and securing information systems, including an introduction to systems analysis and design.</p>
+          <span class="subject-code">IT 207</span>
+        </article>
+
+        <article class="subject-card fade-in">
+          <span class="subject-icon">🧠</span>
+          <h3>Systems Analysis &amp; Design</h3>
+          <p>Studying the software development lifecycle and creating system models to plan, build, and improve information systems.</p>
+          <span class="subject-code">IT 208</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<!-- ============ CONTACT SECTION ============ -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <span class="section-eyebrow">Get in Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Have a project idea, an internship opening, or just want to say hi? Send me a message.</p>
+      </div>
+
+      <div class="contact-form-wrap fade-in">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p>© 2025 Joshua Omang. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="mailto:joshua.omang@example.com">Email</a>
+      <a href="[github.com](https://github.com/yourusername)" target="_blank" rel="noopener">GitHub</a>
+      <a href="[linkedin.com](https://linkedin.com/in/yourusername)" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </footer>
+
+  <!-- Back-to-top button, controlled by JS -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
